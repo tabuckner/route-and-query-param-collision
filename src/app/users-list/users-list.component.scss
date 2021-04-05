@@ -1,0 +1,28 @@
+.users-list {
+  &__item {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 16px 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    background-color: whitesmoke;
+
+    &:hover {
+      background-color: darken($color: whitesmoke, $amount: 13%);
+    }
+
+    &__row {
+      display: flex;
+      padding: 8px;
+    }
+
+    &__label {
+      font-weight: bold;
+      margin-right: 8px;
+    }
+
+    &__value {
+      margin-right: 8px;
+    }
+  }
+}
